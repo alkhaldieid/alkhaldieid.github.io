@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Eid Alkhaldi AI/Tech Insights</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>All Posts | Eid Alkhaldi AI/Tech Insights</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eid.alkhaldi@gmail.com (Eid Alkhaldi, Ph.D.)</managingEditor>
+            <webMaster>eid.alkhaldi@gmail.com (Eid Alkhaldi, Ph.D.)</webMaster><lastBuildDate>Fri, 20 Sep 2024 23:24:03 &#43;0300</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>First_post</title>
+    <link>http://localhost:1313/first_post/</link>
+    <pubDate>Fri, 20 Sep 2024 23:24:03 &#43;0300</pubDate>
+    <author>Eid Alkhaldi, Ph.D.</author>
+    <guid>http://localhost:1313/first_post/</guid>
+    <description><![CDATA[This is my first post]]></description>
+</item>
+</channel>
+</rss>
