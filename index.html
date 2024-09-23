@@ -41,7 +41,7 @@
             <a href="/" title="Eid Alkhaldi AI/Tech Insights"></a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item active" href="/"> Home </a><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item active" href="/"> Home </a><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/about/"> About Me </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -83,7 +83,7 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         Cancel
                     </a>
-                </div><a class="menu-item" href="/" title="">Home</a><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                </div><a class="menu-item" href="/" title="">Home</a><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/about/" title="">About Me</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a></div>
     </div>
@@ -196,9 +196,24 @@ Advisor: Dr. Ezzatollah Salari</p>
 </ul>
 </div>
             </div><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/first_post/">First_post</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://alkhaldieid.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Eid Alkhaldi, Ph.D.</a></span>&nbsp;<span class="post-publish">published on <time datetime="2024-09-20">2024-09-20</time></span></div><div class="content">This is my first post</div><div class="post-footer">
-        <a href="/first_post/">Read More</a></div>
+        <a href="/setup-emacs-hugo/">How I Set Up Emacs to Publish Hugo Posts</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://alkhaldieid.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Eid Alkhaldi, Ph.D.</a></span>&nbsp;<span class="post-publish">published on <time datetime="2024-09-21">2024-09-21</time></span></div><div class="content">I prefer writing blog posts in Org mode and exporting them to Markdown using ox-hugo in Emacs. Here’s how I set it up.
+Step 1: Install `ox-hugo` First, I installed the `ox-hugo` package in Emacs:
+1 2 3 (use-package ox-hugo :ensure t :after ox) Step 2: Writing Posts in Org Mode I write posts in Org mode with headings and metadata. Here’s an example template I use for my posts:</div><div class="post-footer">
+        <a href="/setup-emacs-hugo/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/setup-hugo-website/">How I Set Up My Hugo Website</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://alkhaldieid.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Eid Alkhaldi, Ph.D.</a></span>&nbsp;<span class="post-publish">published on <time datetime="2024-09-21">2024-09-21</time></span></div><div class="content">I recently set up my personal website using Hugo with the LoveIt theme. Here’s a detailed guide of the steps I took.
+Step 1: Install Hugo To install Hugo, I followed the instructions from the official Hugo website: Hugo Installation Guide.
+1 2 # Install Hugo on Linux using Snap sudo snap install hugo Step 2: Initialize the Hugo Project After installation, I initialized the Hugo project:
+1 hugo new site my_website Step 3: Add the LoveIt Theme To add the LoveIt theme, I used Git submodules:</div><div class="post-footer">
+        <a href="/setup-hugo-website/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/reporting-efficiency-automation/">From Frustration to Automation: A Journey in Reporting Efficiency</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://alkhaldieid.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Eid Alkhaldi, Ph.D.</a></span>&nbsp;<span class="post-publish">published on <time datetime="2024-08-30">2024-08-30</time></span></div><div class="content">🚀 From Frustration to Automation: A Journey in Reporting Efficiency
+As Deputy Site Manager, I had to submit daily progress reports to governmental agencies, which consisted mostly of images. Initially, I used MS Word, but aligning images manually was frustrating and took over an hour every day. It wasn’t efficient and prevented me from focusing on more strategic tasks.
+Being a fan of automating repetitive work, I turned to LaTeX and Python.</div><div class="post-footer">
+        <a href="/reporting-efficiency-automation/">Read More</a></div>
 </article></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.133.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>

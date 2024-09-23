@@ -4,13 +4,36 @@
         <link>http://localhost:1313/posts/</link>
         <description>All Posts | Eid Alkhaldi AI/Tech Insights</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eid.alkhaldi@gmail.com (Eid Alkhaldi, Ph.D.)</managingEditor>
-            <webMaster>eid.alkhaldi@gmail.com (Eid Alkhaldi, Ph.D.)</webMaster><lastBuildDate>Fri, 20 Sep 2024 23:24:03 &#43;0300</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>First_post</title>
-    <link>http://localhost:1313/first_post/</link>
-    <pubDate>Fri, 20 Sep 2024 23:24:03 &#43;0300</pubDate>
+            <webMaster>eid.alkhaldi@gmail.com (Eid Alkhaldi, Ph.D.)</webMaster><lastBuildDate>Sat, 21 Sep 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>How I Set Up Emacs to Publish Hugo Posts</title>
+    <link>http://localhost:1313/setup-emacs-hugo/</link>
+    <pubDate>Sat, 21 Sep 2024 00:00:00 &#43;0000</pubDate>
     <author>Eid Alkhaldi, Ph.D.</author>
-    <guid>http://localhost:1313/first_post/</guid>
-    <description><![CDATA[This is my first post]]></description>
+    <guid>http://localhost:1313/setup-emacs-hugo/</guid>
+    <description><![CDATA[I prefer writing blog posts in Org mode and exporting them to Markdown using ox-hugo in Emacs. Here’s how I set it up.
+Step 1: Install `ox-hugo` First, I installed the `ox-hugo` package in Emacs:
+1 2 3 (use-package ox-hugo :ensure t :after ox) Step 2: Writing Posts in Org Mode I write posts in Org mode with headings and metadata. Here’s an example template I use for my posts:]]></description>
+</item>
+<item>
+    <title>How I Set Up My Hugo Website</title>
+    <link>http://localhost:1313/setup-hugo-website/</link>
+    <pubDate>Sat, 21 Sep 2024 00:00:00 &#43;0000</pubDate>
+    <author>Eid Alkhaldi, Ph.D.</author>
+    <guid>http://localhost:1313/setup-hugo-website/</guid>
+    <description><![CDATA[I recently set up my personal website using Hugo with the LoveIt theme. Here’s a detailed guide of the steps I took.
+Step 1: Install Hugo To install Hugo, I followed the instructions from the official Hugo website: Hugo Installation Guide.
+1 2 # Install Hugo on Linux using Snap sudo snap install hugo Step 2: Initialize the Hugo Project After installation, I initialized the Hugo project:
+1 hugo new site my_website Step 3: Add the LoveIt Theme To add the LoveIt theme, I used Git submodules:]]></description>
+</item>
+<item>
+    <title>From Frustration to Automation: A Journey in Reporting Efficiency</title>
+    <link>http://localhost:1313/reporting-efficiency-automation/</link>
+    <pubDate>Fri, 30 Aug 2024 00:00:00 &#43;0000</pubDate>
+    <author>Eid Alkhaldi, Ph.D.</author>
+    <guid>http://localhost:1313/reporting-efficiency-automation/</guid>
+    <description><![CDATA[🚀 From Frustration to Automation: A Journey in Reporting Efficiency
+As Deputy Site Manager, I had to submit daily progress reports to governmental agencies, which consisted mostly of images. Initially, I used MS Word, but aligning images manually was frustrating and took over an hour every day. It wasn’t efficient and prevented me from focusing on more strategic tasks.
+Being a fan of automating repetitive work, I turned to LaTeX and Python.]]></description>
 </item>
 </channel>
 </rss>
