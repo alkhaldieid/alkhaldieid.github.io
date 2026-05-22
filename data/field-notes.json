@@ -1,0 +1,40 @@
+[
+  {
+    "title": "From Buzzwords to Operational Change in Insurance",
+    "slug": "global-insurance-innovation-forum-saudi-arabia-2025",
+    "eyebrow": "Global Insurance Innovation Forum Saudi Arabia 2025",
+    "date": "2025-11-10",
+    "location": "Saudi Arabia",
+    "summary": "A keynote and executive panel on why insurance transformation succeeds only when data quality, change management, legacy integration, and AI controls are treated as one operating problem.",
+    "role": "Keynote speaker and executive panelist on “From Data to Decision — AI in Action.”",
+    "images": [
+      {
+        "src": "/assets/forum/global-insurance-forum-keynote.jpeg",
+        "alt": "Eid Alkhaldi delivering a keynote at the Global Insurance Innovation Forum Saudi Arabia 2025",
+        "caption": "Keynote remarks on practical digital transformation in insurance."
+      },
+      {
+        "src": "/assets/forum/global-insurance-forum-panel.jpeg",
+        "alt": "Eid Alkhaldi speaking during an executive panel at the Global Insurance Innovation Forum Saudi Arabia 2025",
+        "caption": "Executive panel: From Data to Decision — AI in Action."
+      },
+      {
+        "src": "/assets/forum/global-insurance-forum-certificate.jpeg",
+        "alt": "Certificate of appreciation from the Global Insurance Innovation Forum Saudi Arabia 2025",
+        "caption": "Certificate of appreciation from the forum."
+      }
+    ],
+    "body": [
+      "The useful part of the forum was its refusal to stay at the level of polished transformation language. The discussion moved quickly toward the operational questions insurers face every day: fragmented execution, uneven data quality, legacy systems, customer frustration, and the gap between AI ambition and production reality.",
+      "My keynote focused on why many transformation programs fail despite strong intent. The problem is rarely a lack of vision alone. More often, priorities are misaligned, execution is fragmented, and change management is rushed before the organization has absorbed the operating consequences.",
+      "On the executive panel, the most valuable discussion centered on the path from data to decision. Better insurance AI depends on data quality from upstream entities, non-intrusive integration with existing systems, phased delivery that can finance itself, and AI use cases that shorten real claim cycles rather than decorate presentations.",
+      "The strongest signal from the audience was practical: transformation is credible when it reduces friction for customers, claims teams, underwriters, compliance teams, and IT teams at the same time. That requires less theatre and more operating discipline."
+    ],
+    "themes": [
+      "Transformation fails when execution, governance, and change management are treated as separate workstreams.",
+      "Insurance AI must respect existing systems before it can improve them.",
+      "Data quality is not a back-office issue; it directly affects underwriting, claims, compliance, and customer trust.",
+      "Sentiment analysis, claims automation, and workflow intelligence matter only when they shorten cycles and improve service in measurable ways."
+    ]
+  }
+]

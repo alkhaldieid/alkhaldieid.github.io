@@ -1,0 +1,11 @@
+{
+  "name": "alkhaldieid.github.io",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "review:posts": "node scripts/sync-signal-posts.mjs --review",
+    "publish:posts": "node scripts/sync-signal-posts.mjs --publish --confirm",
+    "build": "node scripts/sync-signal-posts.mjs --publish --confirm"
+  }
+}

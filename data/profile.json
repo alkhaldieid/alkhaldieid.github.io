@@ -1,0 +1,138 @@
+{
+  "name": "Eid Alkhaldi",
+  "shortName": "Eid Alkhaldi",
+  "credential": "PhD",
+  "title": "AI Systems Architect for Regulated Enterprises",
+  "headline": "Most teams can access the same models. My work is deciding what can be trusted, what must be verified, and how AI becomes an auditable system inside regulated Arabic-English workflows.",
+  "location": "Riyadh, Saudi Arabia",
+  "availability": "Applied AI, insurance workflows, evaluation, and Arabic-English enterprise systems.",
+  "summary": [
+    "The durable advantage is not tool access. It is the ability to turn uncertain model behavior into evidence, controls, review points, and operating routines that a real institution can defend.",
+    "My background combines a PhD in Electrical Engineering, first-author research in computer vision and optimization, and delivery experience across insurance, compliance-oriented automation, and bilingual Arabic-English enterprise environments."
+  ],
+  "edge": [
+    {
+      "title": "Evaluation Before Automation",
+      "body": "I start with what must be proven: evidence recall, decision correctness, exception behavior, citation faithfulness, audit trail quality, and conditions for abstention."
+    },
+    {
+      "title": "Regulated Workflow Judgment",
+      "body": "Insurance and compliance work require authority boundaries, human review, policy interpretation, exception handling, and a record of why a decision was made."
+    },
+    {
+      "title": "Arabic-English Enterprise Reality",
+      "body": "Bilingual systems fail in specific ways: translated clauses drift, local terminology matters, dialect changes intent, and document hierarchy can decide the answer."
+    },
+    {
+      "title": "Research-Trained ML Judgment",
+      "body": "Doctoral research and first-author publications shaped a habit of controlled comparison, reproducibility, and skepticism toward unsupported model claims."
+    }
+  ],
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/eid-alkhaldi-ph-d-38a10212a/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/alkhaldieid"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=1MZmHpkAAAAJ"
+    }
+  ],
+  "proof": [
+    {
+      "value": "PhD",
+      "label": "Electrical Engineering; machine learning, optimization, and computer vision"
+    },
+    {
+      "value": "4",
+      "label": "first-author peer-reviewed AI publications"
+    },
+    {
+      "value": "KSA",
+      "label": "regulated enterprise AI delivery in the Saudi market"
+    },
+    {
+      "value": "AR/EN",
+      "label": "Arabic-English evaluation, retrieval, and workflow context"
+    }
+  ],
+  "focus": [
+    "Evaluation design for RAG, agents, and high-accountability LLM systems",
+    "Insurance AI across underwriting, claims, fraud indicators, and compliance workflows",
+    "Arabic-English enterprise retrieval, semantic evaluation, and context engineering",
+    "Agentic architectures with tool governance, audit trails, and human review",
+    "Computer vision and applied ML systems that move from research to operations"
+  ],
+  "projects": [
+    {
+      "title": "Insurance AI Decision Systems",
+      "eyebrow": "Regulated AI",
+      "body": "Work on underwriting, claims, fraud indicators, audit trails, and human review. The technical challenge is inseparable from policy interpretation, authority, exception handling, and operational adoption."
+    },
+    {
+      "title": "Agentic and Retrieval Architectures",
+      "eyebrow": "RAG, tools, memory",
+      "body": "Architecture for systems where retrieval, tool calls, memory, policy constraints, model evaluation, and auditability are treated as one control surface."
+    },
+    {
+      "title": "Arabic-English AI Evaluation",
+      "eyebrow": "Bilingual enterprise context",
+      "body": "Evaluation for systems that must handle Arabic and English documents, translated policy language, local terminology, dialectal intent, and evidence hierarchy."
+    },
+    {
+      "title": "Medical Image AI Research",
+      "eyebrow": "Doctoral research",
+      "body": "First-author research on ensemble optimization and histology image classification, with emphasis on reproducible experimentation and model behavior under constraint."
+    }
+  ],
+  "principles": [
+    "Evidence is part of the product, not an afterthought.",
+    "Human review should be designed as a control, not inserted as a vague fallback.",
+    "Arabic fluency is not enough; evaluation must test meaning, evidence, and decision behavior.",
+    "Agentic systems need session integrity: calls, arguments, state changes, permissions, and outputs must be replayable.",
+    "The best AI architecture reduces institutional uncertainty rather than hiding it behind a fluent interface."
+  ],
+  "experience": [
+    {
+      "role": "Insurance AI and Digital Transformation",
+      "period": "2025 - Present",
+      "body": "Applied AI work for insurance and regulated workflows in Saudi Arabia, focused on production readiness, governance, human-in-the-loop design, and operational measurement."
+    },
+    {
+      "role": "AI Venture Building and Consulting",
+      "period": "2023 - 2025",
+      "body": "Co-founded and advised applied AI initiatives across autonomous systems, computer vision, technical handover, and partner-facing product roadmaps."
+    },
+    {
+      "role": "AI-Enabled Operations",
+      "period": "2024 - 2025",
+      "body": "Applied computer vision and automation to site operations, reporting, and safety workflows, with emphasis on operational visibility and repeatable handover."
+    },
+    {
+      "role": "PhD Researcher, Electrical Engineering",
+      "period": "2017 - 2022",
+      "body": "Developed optimization and ensemble-learning methods for medical image classification, producing first-author peer-reviewed publications and reproducible experimental pipelines."
+    }
+  ],
+  "publications": [
+    {
+      "title": "Ensemble Optimization for IDC Classification Using Differential Cartesian Genetic Programming",
+      "venue": "IEEE Access, 2022",
+      "url": "https://ieeexplore.ieee.org/document/9978635"
+    },
+    {
+      "title": "Clonal Selection Algorithm for Breast Cancer Histology Image Classification",
+      "venue": "IJCST, 2022",
+      "url": "https://www.ijcst.com/vol12/issue1/3-eid-alkhaldi.pdf"
+    },
+    {
+      "title": "Genetically Optimized Heterogeneous Ensemble for Histological Image Classification",
+      "venue": "IJSEI, 2019",
+      "url": "http://www.ijsei.com/papers/ijsei-89519-16.pdf"
+    }
+  ]
+}

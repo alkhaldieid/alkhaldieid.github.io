@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Arabic RAG failures frequently come from weak context assembly rather than weak embeddings.">
+  <meta name="author" content="Eid Alkhaldi">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Real Bottleneck in Gulf Arabic RAG | Eid Alkhaldi">
+  <meta property="og:description" content="Arabic RAG failures frequently come from weak context assembly rather than weak embeddings.">
+  <meta property="og:url" content="https://alkhaldieid.github.io/blog/posts/gulf-arabic-rag-context-assembly/">
+  <meta property="og:image" content="https://alkhaldieid.github.io/assets/eid-alkhaldi.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>The Real Bottleneck in Gulf Arabic RAG | Eid Alkhaldi</title>
+  <link rel="canonical" href="https://alkhaldieid.github.io/blog/posts/gulf-arabic-rag-context-assembly/">
+  <link rel="alternate" hreflang="en" href="https://alkhaldieid.github.io/">
+  <link rel="alternate" hreflang="ar" href="https://alkhaldieid.github.io/ar/">
+  <link rel="alternate" type="application/rss+xml" title="Eid Alkhaldi blog" href="/index.xml">
+  <link rel="stylesheet" href="/css/site.css?v=20260522-redesign">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"The Real Bottleneck in Gulf Arabic RAG","description":"Arabic RAG failures frequently come from weak context assembly rather than weak embeddings.","datePublished":"2026-04-27T08:33:47","dateModified":"2026-04-27T08:33:47","author":{"@type":"Person","name":"Eid Alkhaldi"},"mainEntityOfPage":"https://alkhaldieid.github.io/blog/posts/gulf-arabic-rag-context-assembly/","keywords":"Arabic AI, RAG, Gulf Enterprise"}</script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="/">
+        <span class="brand-mark">EA</span>
+        <span>Eid Alkhaldi</span>
+      </a>
+      <div class="nav-links">
+        <a href="/">Index</a>
+        <a href="/about/">Profile</a>
+        <a href="/blog/" aria-current="page">Essays</a>
+        <a href="/ar/">العربية</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <article class="article">
+    <p class="eyebrow">Essay</p>
+    <h1>The Real Bottleneck in Gulf Arabic RAG</h1>
+    <p class="meta"><time datetime="2026-04-27T08:33:47">Apr 27, 2026</time></p>
+    <ul class="tag-list">
+      <li class="tag">Arabic AI</li><li class="tag">RAG</li><li class="tag">Gulf Enterprise</li>
+    </ul>
+    <div class="article-body">
+      <p dir="auto">In Gulf enterprise deployments, Arabic RAG can fail in a deceptively ordinary way: it retrieves too much text that is almost useful. Modern Standard Arabic, local terminology, translated contracts, repeated policy clauses, and boilerplate can look similar while carrying different legal or operational consequences.</p>
+<p dir="auto">The bottleneck is context assembly. A top-k list of similar passages is not a theory of evidence. The system must decide which passage is authoritative, whether two clauses conflict, whether a translation changed meaning, and whether the answer depends on a date, jurisdiction, or exception.</p>
+<p dir="auto">For Arabic systems, token economy is epistemic as well as financial. The more redundant context the agent receives, the more it must reconcile. Stronger retrieval aims for minimum-token, maximum-evidence context: fewer passages, clearer provenance, and explicit treatment of ambiguity.</p>
+    </div>
+  </article>
+</main>
+  <footer class="footer">
+    <div class="wrap">
+      <span>Eid Alkhaldi - AI systems, evaluation, and regulated enterprise workflows.</span>
+      <span class="footer-links"><a href="https://www.linkedin.com/in/eid-alkhaldi-ph-d-38a10212a/" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/alkhaldieid" target="_blank" rel="noopener">GitHub</a><a href="https://scholar.google.com/citations?user=1MZmHpkAAAAJ" target="_blank" rel="noopener">Google Scholar</a></span>
+    </div>
+  </footer>
+</body>
+</html>

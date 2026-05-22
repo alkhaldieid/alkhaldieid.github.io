@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Many RAG failures are diagnosed as model failures even when the real error happened before generation.">
+  <meta name="author" content="Eid Alkhaldi">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Why RAG Fails When Retrieval Is Not Evaluated | Eid Alkhaldi">
+  <meta property="og:description" content="Many RAG failures are diagnosed as model failures even when the real error happened before generation.">
+  <meta property="og:url" content="https://alkhaldieid.github.io/blog/posts/why-rag-fails-when-retrieval-is-not-evaluated/">
+  <meta property="og:image" content="https://alkhaldieid.github.io/assets/eid-alkhaldi.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Why RAG Fails When Retrieval Is Not Evaluated | Eid Alkhaldi</title>
+  <link rel="canonical" href="https://alkhaldieid.github.io/blog/posts/why-rag-fails-when-retrieval-is-not-evaluated/">
+  <link rel="alternate" hreflang="en" href="https://alkhaldieid.github.io/">
+  <link rel="alternate" hreflang="ar" href="https://alkhaldieid.github.io/ar/">
+  <link rel="alternate" type="application/rss+xml" title="Eid Alkhaldi blog" href="/index.xml">
+  <link rel="stylesheet" href="/css/site.css?v=20260522-redesign">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Why RAG Fails When Retrieval Is Not Evaluated","description":"Many RAG failures are diagnosed as model failures even when the real error happened before generation.","datePublished":"2026-04-25T18:13:40","dateModified":"2026-04-25T18:13:40","author":{"@type":"Person","name":"Eid Alkhaldi"},"mainEntityOfPage":"https://alkhaldieid.github.io/blog/posts/why-rag-fails-when-retrieval-is-not-evaluated/","keywords":"RAG, Evaluation, Enterprise AI"}</script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="/">
+        <span class="brand-mark">EA</span>
+        <span>Eid Alkhaldi</span>
+      </a>
+      <div class="nav-links">
+        <a href="/">Index</a>
+        <a href="/about/">Profile</a>
+        <a href="/blog/" aria-current="page">Essays</a>
+        <a href="/ar/">العربية</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <article class="article">
+    <p class="eyebrow">Essay</p>
+    <h1>Why RAG Fails When Retrieval Is Not Evaluated</h1>
+    <p class="meta"><time datetime="2026-04-25T18:13:40">Apr 25, 2026</time></p>
+    <ul class="tag-list">
+      <li class="tag">RAG</li><li class="tag">Evaluation</li><li class="tag">Enterprise AI</li>
+    </ul>
+    <div class="article-body">
+      <p dir="auto">Many RAG programs begin with a model comparison and only later ask whether retrieval is producing the right evidence. That sequence is backwards. If the retrieval layer returns the wrong clause, duplicated passages, stale policies, or context fragments without hierarchy, the generator is being asked to reason over a corrupted record.</p>
+<p dir="auto">The retrieval episode, not only the final answer, should become the unit of evaluation. Which document was selected? Which section? Was the answerable span present? Did the system retrieve redundant text at the expense of decisive evidence? Did retrieval preserve jurisdiction, date, policy version, and exception language?</p>
+<p dir="auto">In Arabic and bilingual enterprise settings, similarity is a weak proxy when morphology, dialect, boilerplate, and translated policy language interact. The remedy is an evidence discipline: retrieval test sets, gold spans, citation faithfulness, and context assembly tuned before a larger model is celebrated.</p>
+    </div>
+  </article>
+</main>
+  <footer class="footer">
+    <div class="wrap">
+      <span>Eid Alkhaldi - AI systems, evaluation, and regulated enterprise workflows.</span>
+      <span class="footer-links"><a href="https://www.linkedin.com/in/eid-alkhaldi-ph-d-38a10212a/" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/alkhaldieid" target="_blank" rel="noopener">GitHub</a><a href="https://scholar.google.com/citations?user=1MZmHpkAAAAJ" target="_blank" rel="noopener">Google Scholar</a></span>
+    </div>
+  </footer>
+</body>
+</html>

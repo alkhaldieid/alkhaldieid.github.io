@@ -1,1 +1,222 @@
-[{"categories":null,"content":"I prefer writing blog posts in Org mode and exporting them to Markdown using ox-hugo in Emacs. Here’s how I set it up. Step 1: Install `ox-hugo` First, I installed the `ox-hugo` package in Emacs: (use-package ox-hugo :ensure t :after ox) Step 2: Writing Posts in Org Mode I write posts in Org mode with headings and metadata. Here’s an example template I use for my posts: #+begin_example org ","date":"2024-09-21","objectID":"/setup-emacs-hugo/:0:0","tags":null,"title":"How I Set Up Emacs to Publish Hugo Posts","uri":"/setup-emacs-hugo/"},{"categories":null,"content":"I recently set up my personal website using Hugo with the LoveIt theme. Here’s a detailed guide of the steps I took. Step 1: Install Hugo To install Hugo, I followed the instructions from the official Hugo website: Hugo Installation Guide. # Install Hugo on Linux using Snap sudo snap install hugo Step 2: Initialize the Hugo Project After installation, I initialized the Hugo project: hugo new site my_website Step 3: Add the LoveIt Theme To add the LoveIt theme, I used Git submodules: git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt Step 4: Configure Hugo I customized the `config.toml` file by updating the site title, base URL, and other settings: baseURL = \"https://alkhaldieid.github.io/\" languageCode = \"en-us\" title = \"Eid Alkhaldi - AI \u0026 Tech Insights\" theme = \"LoveIt\" defaultTheme = \"dark\" Step 5: Build and Deploy Once the configuration was done, I used Hugo to generate the static files: hugo Finally, I committed the changes to the `public/` folder and pushed the site to GitHub Pages. My website is now live at: https://alkhaldieid.github.io/. ","date":"2024-09-21","objectID":"/setup-hugo-website/:0:0","tags":null,"title":"How I Set Up My Hugo Website","uri":"/setup-hugo-website/"},{"categories":null,"content":"🚀 From Frustration to Automation: A Journey in Reporting Efficiency As Deputy Site Manager, I had to submit daily progress reports to governmental agencies, which consisted mostly of images. Initially, I used MS Word, but aligning images manually was frustrating and took over an hour every day. It wasn’t efficient and prevented me from focusing on more strategic tasks. Being a fan of automating repetitive work, I turned to LaTeX and Python. Using LaTeX helped streamline the formatting, but I realized the reports followed a repetitive structure. With some encouragement from my colleague Ali Alzahrani, I decided to automate the entire process. I spent a few hours coding and iteratively refining a tool. The result? What used to take an hour now takes less than 5 seconds. The tool automatically pulls images, generates LaTeX code, and compiles a perfectly formatted PDF report, ready to submit. This journey taught me the power of coding to solve real-world problems and optimize workflows. If you’re facing similar challenges, feel free to check out the tool I built. It’s available for free on my GitHub: https://lnkd.in/dQCqZbC8. I hope it helps others save time and focus on what truly matters. 🚀 من الإحباط إلى الأتمتة: رحلة في كفاءة إعداد التقارير بصفتي نائب مدير الموقع، كنت مسؤولًا عن إعداد تقارير يومية للجهات الحكومية توثق العمل المنجز، وكانت هذه التقارير تعتمد بشكل كبير على الصور. في البداية، اعتمدت على MS Word، لكن تنسيق الصور يدويًا كان مرهقًا ويستغرق أكثر من ساعة يوميًا. قررت الاستفادة من خبرتي في LaTeX وPython لأتمتة العملية بالكامل. باستخدام LaTeX، تمكنت من تبسيط التنسيق، لكن العملية كانت مكررة يوميًا. بدعم من زميلي علي الزهراني، برمجت أداة تقوم بكل شيء تلقائيًا. النتيجة؟ التقارير التي كانت تستغرق ساعة تُنجز الآن في أقل من 5 ثوانٍ. الأداة ترتب الصور، تولد كود LaTeX، وتنتج تقريرًا PDF جاهزًا للإرسال. إذا كنت تواجه تحديات مماثلة، اكتشف الأداة مجانًا على GitHub: https://lnkd.in/dQCqZbC8. Hashtags: #Python #Automation #LaTeX #Efficiency #DigitalTransformation #ProjectManagement #أتمتة #Python #LaTeX #إنتاجية #إدارة_المشاريع #تحول_رقمي ","date":"2024-08-30","objectID":"/reporting-efficiency-automation/:0:0","tags":null,"title":"From Frustration to Automation: A Journey in Reporting Efficiency","uri":"/reporting-efficiency-automation/"},{"categories":null,"content":"Detailed overview of Eid Alkhaldi's journey in AI, Data Science, and Autonomous Systems","date":"0001-01-01","objectID":"/about/","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"Eid Alkhaldi, Ph.D. AI \u0026 Data Science Expert | Researcher | Consultant ","date":"0001-01-01","objectID":"/about/:0:0","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"Introduction I am Eid Alkhaldi, a Certified Professional Data Scientist with a Ph.D. in Electrical Engineering from the University of Toledo, specializing in Artificial Intelligence and Autonomous Systems. Over the past 8 years, I have been involved in groundbreaking research and the development of AI solutions for industry and academia. My journey covers a wide range of applications in image processing, AI-powered solutions, and autonomous systems. I am passionate about applying AI to solve real-world challenges, especially in healthcare and autonomous driving. ","date":"0001-01-01","objectID":"/about/:1:0","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"Education Ph.D. in Electrical Engineering University of Toledo Specialization: Medical Image Processing, AI, and Deep Learning Advisor: Dr. Ezzatollah Salari M.S. in Electrical Engineering University of Toledo B.S. in Electrical Engineering Oklahoma State University ","date":"0001-01-01","objectID":"/about/:2:0","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"Key Projects ","date":"0001-01-01","objectID":"/about/:3:0","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"🏎️ NMK Autonomous Driver As Co-founder and Senior AI Consultant at NMK, I led the development of AI-powered autonomous driving technologies. This included: Creating an Autonomous Emergency Stop system for enhanced vehicle safety. Optimizing workflows that increased productivity. Learn more about NMK Autonomous Driver ","date":"0001-01-01","objectID":"/about/:3:1","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"🧬 Histology Image Classification for Breast Cancer Detection Developed advanced AI models to detect breast cancer using histology images, achieving state-of-the-art accuracy. These models are open-sourced for scientific use. Explore the project on GitHub ","date":"0001-01-01","objectID":"/about/:3:2","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"⚙️ Auto Report Automation Tool I created an AI-powered automation tool for generating daily reports for government agencies, reducing report creation time to under 5 seconds. View the project on GitHub ","date":"0001-01-01","objectID":"/about/:3:3","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"Publications E. Alkhaldi, E. Salari, Ensemble Optimization for IDC Classification Using Differential Cartesian Genetic Programming, IEEE Access, 2022. Read Paper E. Alkhaldi, E. Salari, Clonal Selection Algorithm for Breast Cancer Histology Image Classification, IJCST, 2022. Read Paper E. Alkhaldi, Genetically Optimized Heterogeneous Ensemble for Histological Image Classification, IJSEI, 2019. Read Paper ","date":"0001-01-01","objectID":"/about/:4:0","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"Skills Programming: Python, R, C++, MATLAB AI Tools: TensorFlow, PyTorch, Keras, Scikit-learn Cloud Platforms: AWS, Azure Data Science: Pandas, NumPy, Jupyter ","date":"0001-01-01","objectID":"/about/:5:0","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"🏆 Awards \u0026 Recognitions IEEE Access Best Paper Award for research on AI-based histology image classification. AI Innovation Award at NMK for leading the development of autonomous driving safety systems. ","date":"0001-01-01","objectID":"/about/:6:0","tags":null,"title":"About Me","uri":"/about/"},{"categories":null,"content":"Connect with Me Feel free to connect for collaboration opportunities or project discussions: LinkedIn GitHub Email: eid.alkhaldi@example.com ","date":"0001-01-01","objectID":"/about/:7:0","tags":null,"title":"About Me","uri":"/about/"}]
+[
+  {
+    "title": "From Buzzwords to Operational Change in Insurance",
+    "url": "/field-notes/global-insurance-innovation-forum-saudi-arabia-2025/",
+    "date": "2025-11-10T00:00:00",
+    "tags": [
+      "Insurance",
+      "Digital Transformation",
+      "AI"
+    ],
+    "excerpt": "A keynote and executive panel on why insurance transformation succeeds only when data quality, change management, legacy integration, and AI controls are treated as one operating problem."
+  },
+  {
+    "title": "RPA for Brokers: Control Before Automation",
+    "url": "/blog/posts/rpa-brokers-control-before-automation/",
+    "date": "2026-05-18T10:44:49",
+    "tags": [
+      "RPA",
+      "Insurance",
+      "Agentic AI"
+    ],
+    "excerpt": "Broker automation needs a control layer, not another set of screens wired together."
+  },
+  {
+    "title": "Fine-Tuning FLOPs as an AI Governance Signal",
+    "url": "/blog/posts/fine-tuning-flops-ai-governance/",
+    "date": "2026-05-13T13:04:34",
+    "tags": [
+      "AI Governance",
+      "Compliance",
+      "MLOps"
+    ],
+    "excerpt": "Compute accounting is becoming a governance record, not only an infrastructure metric."
+  },
+  {
+    "title": "MCP and the Future of Context Management",
+    "url": "/blog/posts/mcp-context-management/",
+    "date": "2026-05-13T12:53:10",
+    "tags": [
+      "MCP",
+      "Context",
+      "Agentic AI"
+    ],
+    "excerpt": "MCP should be understood as an interface discipline: it makes context and tools explicit enough to govern."
+  },
+  {
+    "title": "What Teams Get Wrong About MCPs in Production",
+    "url": "/blog/posts/mcp-production-memory-context/",
+    "date": "2026-05-13T12:49:53",
+    "tags": [
+      "MCP",
+      "Memory",
+      "Production AI"
+    ],
+    "excerpt": "MCP is useful only when teams treat context, tools, and session state as governed interfaces."
+  },
+  {
+    "title": "MCP Agents Need Session Integrity",
+    "url": "/blog/posts/mcp-agents-session-integrity/",
+    "date": "2026-05-13T11:53:30",
+    "tags": [
+      "MCP",
+      "Security",
+      "Enterprise AI"
+    ],
+    "excerpt": "The hard problem is not calling one tool; it is preserving meaning across a sequence of stateful tool interactions."
+  },
+  {
+    "title": "Why MCP Matters for Agent Infrastructure",
+    "url": "/blog/posts/mcp-agent-infrastructure/",
+    "date": "2026-05-13T11:49:04",
+    "tags": [
+      "MCP",
+      "Agent Infrastructure",
+      "AI Engineering"
+    ],
+    "excerpt": "MCP turns ad hoc agent integrations into contracts that can be tested, governed, and changed."
+  },
+  {
+    "title": "Gulf Enterprise Agents Need Closed-Loop Control",
+    "url": "/blog/posts/gulf-enterprise-agents-closed-loop-control/",
+    "date": "2026-05-03T12:57:25",
+    "tags": [
+      "Gulf Enterprise",
+      "Agentic AI",
+      "Control"
+    ],
+    "excerpt": "For Gulf enterprise agents, reliability depends on validating actions before they touch sensitive systems."
+  },
+  {
+    "title": "Fann or Flop: AI Agents Need Metered Reasoning",
+    "url": "/blog/posts/metered-reasoning-for-ai-agents/",
+    "date": "2026-05-01T11:18:57",
+    "tags": [
+      "Agentic AI",
+      "Governance",
+      "Reasoning"
+    ],
+    "excerpt": "Agent quality will depend less on constant reasoning and more on deciding when extra reasoning is worth the cost."
+  },
+  {
+    "title": "Insurance AI Needs Reasoning-Grounded Retrieval",
+    "url": "/blog/posts/insurance-ai-reasoning-grounded-retrieval/",
+    "date": "2026-04-27T13:34:59",
+    "tags": [
+      "Insurance AI",
+      "RAG",
+      "Compliance"
+    ],
+    "excerpt": "In insurance, high-risk errors usually come from weak grounding rather than weak language generation."
+  },
+  {
+    "title": "The Real Bottleneck in Gulf Arabic RAG",
+    "url": "/blog/posts/gulf-arabic-rag-context-assembly/",
+    "date": "2026-04-27T08:33:47",
+    "tags": [
+      "Arabic AI",
+      "RAG",
+      "Gulf Enterprise"
+    ],
+    "excerpt": "Arabic RAG failures frequently come from weak context assembly rather than weak embeddings."
+  },
+  {
+    "title": "Humility, Verification, and LLM Behavior",
+    "url": "/blog/posts/humility-verification-llm-behavior/",
+    "date": "2026-04-27T08:14:38",
+    "tags": [
+      "LLMs",
+      "Verification",
+      "RAG"
+    ],
+    "excerpt": "What looks like model humility is often an architecture that forces the system to pay for evidence."
+  },
+  {
+    "title": "Confidence Comes from Skipping the Evidence Loop",
+    "url": "/blog/posts/llm-confidence-evidence-loop/",
+    "date": "2026-04-26T12:43:39",
+    "tags": [
+      "LLMs",
+      "Verification",
+      "Arabic AI"
+    ],
+    "excerpt": "LLM confidence is less about model size and more about whether the system is forced to verify."
+  },
+  {
+    "title": "Why RAG Fails When Retrieval Is Not Evaluated",
+    "url": "/blog/posts/why-rag-fails-when-retrieval-is-not-evaluated/",
+    "date": "2026-04-25T18:13:40",
+    "tags": [
+      "RAG",
+      "Evaluation",
+      "Enterprise AI"
+    ],
+    "excerpt": "Many RAG failures are diagnosed as model failures even when the real error happened before generation."
+  },
+  {
+    "title": "Saudi Enterprises Are Wasting RAG Budget",
+    "url": "/blog/posts/saudi-enterprise-rag-budget/",
+    "date": "2026-04-25T18:10:49",
+    "tags": [
+      "Saudi AI",
+      "RAG",
+      "Evaluation"
+    ],
+    "excerpt": "The expensive part of RAG is not always the model. It is the absence of retrieval discipline."
+  },
+  {
+    "title": "Why Serious AI Teams Still Need Python",
+    "url": "/blog/posts/why-ai-teams-still-need-python/",
+    "date": "2026-04-25T17:54:09",
+    "tags": [
+      "AI Engineering",
+      "Python",
+      "Agentic AI"
+    ],
+    "excerpt": "No-code orchestration can be useful at the boundary of a system, but it should not become the center of an AI engineering practice."
+  },
+  {
+    "title": "LLMs for Legal Compliance Need Memory",
+    "url": "/blog/posts/llms-legal-compliance-institutional-memory/",
+    "date": "2026-04-24T18:30:57",
+    "tags": [
+      "Legal AI",
+      "Memory",
+      "Governance"
+    ],
+    "excerpt": "Compliance systems need institutional memory: how similar cases were interpreted, escalated, and resolved."
+  },
+  {
+    "title": "Arabic LLMs Need Evaluation That Understands Context",
+    "url": "/blog/posts/arabic-llm-context-evaluation/",
+    "date": "2026-04-24T18:15:14",
+    "tags": [
+      "Arabic AI",
+      "Evaluation",
+      "Governance"
+    ],
+    "excerpt": "Arabic model quality should be judged by contextual behavior, not by fluency alone."
+  },
+  {
+    "title": "Arabic LLM Deployment Needs Semantic Evaluation",
+    "url": "/blog/posts/arabic-llm-semantic-evaluation/",
+    "date": "2026-04-24T17:32:27",
+    "tags": [
+      "Arabic AI",
+      "Evaluation",
+      "Enterprise AI"
+    ],
+    "excerpt": "Arabic evaluation cannot stop at surface overlap; it must test whether meaning survives dialect, formality, and domain language."
+  },
+  {
+    "title": "Self-Evolving Agents Raise the Reliability Bar",
+    "url": "/blog/posts/self-evolving-agents-reliability/",
+    "date": "2026-04-23T22:04:31",
+    "tags": [
+      "Agentic AI",
+      "Reliability",
+      "Security"
+    ],
+    "excerpt": "Adaptive agents require stronger observability because the system that runs today may not behave exactly like the one tested yesterday."
+  }
+]
